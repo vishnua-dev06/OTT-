@@ -1,32 +1,8 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.venv/
-venv/
-env/
-
-# Credentials & cookies — NEVER commit
-cookies/*.txt
-config/settings.yaml
 .env
-
-# Output & logs
+__pycache__/
+*.pyc
+cookies/
 output/
 logs/
 *.mkv
 *.mp4
-*.ts
-*.m4v
-*.srt
-*.ass
-*.vtt
-
-# DRM keys
-*.wvd
-keys/
-cdm/
-
-# OS
-.DS_Store
-Thumbs.db
